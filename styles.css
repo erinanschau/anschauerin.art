@@ -27,8 +27,8 @@ a { color: inherit; }
 .hero {
   position: relative;
   overflow: hidden;
-  background: var(--dark);
-  color: var(--paper);
+  background: var(--paper-soft) url("img/background_header.JPG") center / cover no-repeat;
+  color: var(--ink-deep);
 }
 .hero::after {
   content: "";
@@ -38,8 +38,8 @@ a { color: inherit; }
   right: clamp(-90px, -4vw, -30px);
   top: 50%;
   transform: translateY(-50%);
-  background: url("https://static.tildacdn.com/tild3130-3230-4538-b634-383262636165/__.png") center / contain no-repeat;
-  opacity: 0.10;
+  background: url("img/logo_dark.png") center / contain no-repeat;
+  opacity: 0.88;
   pointer-events: none;
 }
 .hero-inner {
@@ -61,7 +61,7 @@ a { color: inherit; }
   order: 2;
   margin-top: 10px;
   font-size: clamp(15px, 1.7vw, 19px);
-  color: rgba(246, 251, 252, 0.78);
+  color: rgba(52, 39, 86, 0.78);
 }
 h1 {
   order: 1;
@@ -177,7 +177,7 @@ h1 {
 
 @media (max-width: 720px) {
   .wrap { width: min(calc(100% - 32px), var(--max)); }
-  .hero::after { width: 250px; right: -100px; opacity: 0.08; }
+  .hero::after { width: 250px; right: -100px; opacity: 0.82; }
   .hero-inner { min-height: 250px; padding: 56px 0; }
   h1 { font-size: clamp(42px, 13vw, 62px); }
   .intro { padding-top: 42px; }
