@@ -3,41 +3,62 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Созерцательница — одинокий самиздат.">
-  <title>созерцательница</title>
+  <meta name="description" content="Самиздат коротких текстов одного человека">
+  <meta name="theme-color" content="#0f0f0f">
+  <title>созерцательница | anschauerin.art</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="page-shell">
+  <div class="site">
     <header class="hero">
-      <p class="eyebrow">одинокий самиздат</p>
-      <h1>созерцательница</h1>
-      <p class="intro">Тексты, которые я зачем-то написала и теперь оставила здесь.</p>
+      <div class="wrap hero-inner">
+        <p class="kicker">одинокий самиздат</p>
+        <h1>созерцательница</h1>
+      </div>
     </header>
 
-    <section class="works" aria-labelledby="works-title">
-      <div class="section-heading">
-        <h2 id="works-title">тексты</h2>
-      </div>
-
-      <article class="work-item">
-        <div class="work-copy">
-          <h3>я устал</h3>
-          <p>Проза.</p>
+    <main>
+      <section class="intro">
+        <div class="wrap">
+          <p>всё это могло быть опубликовано на какой-нибудь блог-платформе, но мне никакая не понравилась.<br>поэтому я сделала себе отдельный угол интернета.</p>
         </div>
-        <a class="work-link" href="https://ellipsus.com/read/1MpENXDmmq8GHzmbJHs7Vs/-" target="_blank" rel="noreferrer">читать на Ellipsus <span aria-hidden="true">↗</span></a>
-      </article>
-    </section>
+      </section>
 
-    <section class="contact" aria-labelledby="contact-title">
-      <h2 id="contact-title">связь</h2>
-      <p class="contact-note">erinanschau@gmail.com</p>
-    </section>
+      <section class="works" aria-labelledby="works-title">
+        <div class="wrap">
+          <div class="section-head">
+            <p class="section-label" id="works-title">тексты</p>
+            <span class="section-count">01</span>
+          </div>
 
-    <footer>
-      <p>Здесь нет аналитики. Я бы предпочла превратиться в кусок бумаги.</p>
-      <p class="copyright">© anschauerin.art</p>
+          <article class="work">
+            <div>
+              <h2 class="work-title">я устал</h2>
+              <p class="work-description">моя домашка на курсе Саши Першиной о weird literature</p>
+            </div>
+            <a class="work-link" href="https://ellipsus.com/read/1MpENXDmmq8GHzmbJHs7Vs/-" target="_blank" rel="noreferrer">читать на Ellipsus <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" aria-labelledby="contact-title">
+        <div class="wrap contact-inner">
+          <p class="contact-label" id="contact-title">связь со мной</p>
+          <a class="email-link" href="mailto:erinanschau@gmail.com">erinanschau@gmail.com</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap footer-inner">
+        <img class="footer-eye" src="https://static.tildacdn.com/tild3130-3230-4538-b634-383262636165/__.png" alt="" aria-hidden="true">
+        <p class="footer-copy">этот сайт не использует никакие аналитические или маркетинговые куки и хочет превратиться в кусок бумаги</p>
+        <p class="footer-meta">сделано в 2026 году<br>anschauerin.art</p>
+      </div>
     </footer>
-  </main>
+  </div>
 </body>
 </html>
