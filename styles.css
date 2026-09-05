@@ -16,7 +16,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "PT Sans", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 a { color: inherit; }
@@ -28,7 +28,7 @@ a { color: inherit; }
   position: relative;
   overflow: hidden;
   background: var(--paper-soft) url("img/background_header.JPG") center / cover no-repeat;
-  color: var(--ink-deep);
+  color: var(--paper-soft);
 }
 .hero::after {
   content: "";
@@ -61,7 +61,7 @@ a { color: inherit; }
   order: 2;
   margin-top: 10px;
   font-size: clamp(15px, 1.7vw, 19px);
-  color: rgba(52, 39, 86, 0.78);
+  color: var(--paper);
 }
 h1 {
   order: 1;
