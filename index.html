@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Самиздат коротких текстов одного человека">
-  <meta name="theme-color" content="#0f0f0f">
+  <meta name="theme-color" content="#f7f6f3">
   <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96">
   <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg">
   <link rel="shortcut icon" href="/favicon/favicon.ico">
@@ -14,56 +14,63 @@
   <title>созерцательница | anschauerin.art</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&family=Prata&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="site">
-    <header class="hero">
-      <div class="wrap hero-inner">
-        <p class="kicker">одинокий самиздат</p>
-        <h1>созерцательница</h1>
-      </div>
+  <div class="site-shell">
+    <header class="masthead">
+      <a class="wordmark" href="#top">созерцательница</a>
+      <p class="masthead-description">самиздат коротких текстов одного человека</p>
+      <p class="issue">выпуск 01 / 2026</p>
     </header>
 
-    <main>
-      <section class="intro">
-        <div class="wrap">
-          <p>всё это могло быть опубликовано на какой-нибудь блог-платформе, но мне никакая не понравилась.<br>поэтому я сделала себе отдельный угол интернета.</p>
+    <main id="top">
+      <section class="title-block" aria-labelledby="page-title">
+        <div>
+          <p class="kicker">одинокий самиздат</p>
+          <h1 id="page-title">отдельный угол интернета</h1>
         </div>
+        <p class="title-note">для всего, что могло быть опубликовано на какой-нибудь блог-платформе, но ни одна не понравилась.</p>
+      </section>
+
+      <figure class="landscape">
+        <img src="img/background_header.JPG" alt="Горные склоны в густом тумане">
+        <img class="landscape-eye" src="img/logo_dark.png" alt="" aria-hidden="true">
+        <figcaption>anschauerin.art · 2026</figcaption>
+      </figure>
+
+      <section class="intro" aria-labelledby="intro-title">
+        <h2 class="section-label" id="intro-title">от редакции</h2>
+        <p>Всё это могло быть опубликовано на какой-нибудь блог-платформе, но мне никакая не понравилась. Поэтому я сделала себе отдельный угол интернета.</p>
       </section>
 
       <section class="works" aria-labelledby="works-title">
-        <div class="wrap">
-          <div class="section-head">
-            <p class="section-label" id="works-title">тексты</p>
-            <span class="section-count">01</span>
+        <h2 class="section-label" id="works-title">тексты · 01</h2>
+        <article class="work">
+          <div class="work-copy">
+            <p class="work-meta">weird literature</p>
+            <h3>я устал</h3>
+            <p class="work-description">моя домашка на курсе Саши Першиной о weird literature</p>
+            <a class="text-link" href="https://ellipsus.com/read/1MpENXDmmq8GHzmbJHs7Vs/-" target="_blank" rel="noreferrer">читать на Ellipsus <span aria-hidden="true">↗</span></a>
           </div>
-
-          <article class="work">
-            <div>
-              <h2 class="work-title">я устал</h2>
-              <p class="work-description">моя домашка на курсе Саши Першиной о weird literature</p>
-            </div>
-            <a class="work-link" href="https://ellipsus.com/read/1MpENXDmmq8GHzmbJHs7Vs/-" target="_blank" rel="noreferrer">читать на Ellipsus <span aria-hidden="true">↗</span></a>
-          </article>
-        </div>
+          <div class="work-cover" aria-hidden="true">
+            <span class="cover-first">я</span>
+            <span class="cover-second">устал</span>
+          </div>
+        </article>
       </section>
 
       <section class="contact" aria-labelledby="contact-title">
-        <div class="wrap contact-inner">
-          <p class="contact-label" id="contact-title">связь со мной</p>
-          <a class="email-link" href="mailto:erinanschau@gmail.com">erinanschau@gmail.com</a>
-        </div>
+        <h2 class="section-label" id="contact-title">связь со мной</h2>
+        <a class="email" href="mailto:erinanschau@gmail.com">erinanschau@gmail.com</a>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="wrap footer-inner">
-        <img class="footer-eye" src="https://static.tildacdn.com/tild3130-3230-4538-b634-383262636165/__.png" alt="" aria-hidden="true">
-        <p class="footer-copy">этот сайт не использует никакие аналитические или маркетинговые куки и хочет превратиться в кусок бумаги</p>
-        <p class="footer-meta">сделано в 2026 году<br>anschauerin.art</p>
-      </div>
+      <img class="footer-eye" src="img/logo_dark.png" alt="" aria-hidden="true">
+      <p class="footer-copy">этот сайт не использует никакие аналитические или маркетинговые куки и хочет превратиться в кусок бумаги</p>
+      <p class="footer-meta">сделано в 2026 году<br>anschauerin.art</p>
     </footer>
   </div>
 </body>
